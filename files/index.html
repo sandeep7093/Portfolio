@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!---Navbar-->
+    <nav class="navbar navbar-dark  navbar-expand-sm  bg-dark">
+        <div class="mx-5 navbar-brand ">Sandeep</div>
+        <button class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+     <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+            </li>
+        </ul>
+     </div>
+
+    </nav>
+    <!---Home Section-->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../images/me.jpg" class="img-fluid animate__animated animate__bounceInDown mypic">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="display-2  animate__animated animate__bounceInLeft text-bg">I'm Sandeep</h1>
+                    <h2 class="animate__animated animate__bounceInDown text-bg">Aspiring Frontend Developer</h2>
+                    <p class="animate__animated animate__backInLeft text-bg">Motivated Frontend Developer with a strong foundation in HTML, CSS,Bootstrap, JavaScript,ReactJS and also in Python and Datastructures and Algorithms. Experienced in building responsive, interactive, and visually appealing web applications. Skilled in collaborating with teams to deliver intuitive user interfaces and optimized web performance. Committed to continuous learning and implementing best practices in web development.</p>
+                    <a href="https://www.linkedin.com/in/p-sandeep-/"><img src="../images/linkedin.jpeg" class=" animate__animated animate__backInDown home-icon"></a>
+                    <a href="https://github.com/sandeep7093"><img src="../images/gihub.jpg" class="animate__animated animate__backInDown home-icon "></a>
+                    <a href="https://www.youtube.com/@sandeep77742"><img src="../images/yt.png" class="animate__animated animate__backInDown home-icon"></a>
+                    <a href="https://leetcode.com/u/Sandee77/"><img src="../images/leetcode2.png" class="animate__animated animate__backInDown home-icon"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---About Section-->
+    <section class="about" id="about">
+        <div class="container text-center animate__animated animate__backInLeft">
+            <h1 class="text-bg">About Me</h1>
+            <div class="row mt-5 about-border">
+               <div class="col-md-8 mt-5">
+                <p class="lead text-bg animate__animated animate__">Hi, I'm Sandeep! I'm a frontend developer skilled in HTML, CSS, JavaScript, Bootstrap, ReactJS, and Git. I also explore Python for DSA. Besides coding, I'm passionate about helping others, so I run a YouTube channel with 1,500 subscribers, where I share insights about IT company jobs, their criteria, and more career-related content.</p>
+               </div>
+               <div class="col-md-4 mt-2 my-3">
+                <img src="../images/aboutpic.png" class="img-fluid img-about">
+               </div>
+            </div>
+        </div>
+
+    </section>
+
+ <!--- Skills Section-->  
+ <section class="skills" id="skills">
+    <div class="container text-center">
+        <h1 class="text-bg">Skills</h1>
+        <div class="row">
+            <div class="col bg-darka">
+                <img src="../images/html-icon-3d-rendering-illustration-vector.jpg" class="img-fluid img-skills">
+                <img src="../images/images (1).png" class="img-fluid img-skills">
+                <img src="../images/Bootstrap_logo.svg.png" class="img-fluid img-skills">
+                <img src="../images/git.png" class="img-fluid img-skills">
+                <img src="../images/reactjs.png" class="img-fluid img-skills">
+                <img src="../images/python.png" class="img-fluid img-skills">
+                <img src="../images/images.png" class="img-fluid img-skills">
+                <img src="../images/aws.png" class="img-fluid img-skills">
+                <img src="../images/powebi.png" class="img-fluid img-skills">
+            </div>
+        </div>
+    </div>
+
+ </section> 
+
+ <!---Projects-->
+ <section class="projects" id="projects">
+    <div class="container-fluid ">
+        <h1 class="text-center text-bg my-5">Projects</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-bg ">
+                    <div class="card-header text-center">
+                        <img src="../images/serachcountry.png" class="img-fluid img-project">
+                    </div>
+                    <div class="card-body  text-center">
+                        <p class="lead text-bg">
+                            Developed a country search web application using the REST Countries open-source API, HTML, CSS, and JavaScript. This project allows users to search for information about various countries effortlessly.
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/sandeep7093/SearchCountry" class="link"><i class="fa fa-link"></i>Link</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-bg ">
+                    <div class="card-header text-center">
+                        <img src="../images/moviesearch.jpg" class="img-fluid img-project">
+                    </div>
+                    <div class="card-body  text-center">
+                        <p class="lead text-bg">
+                             Developed a movie search project using the open-source IMDB REST API, implementing it with HTML, CSS, and JavaScript. The application allows users to search for movies information and about various movies effortlessly. </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/sandeep7093/moviesearch" class="link"><i class="fa fa-link"></i>Link</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-bg ">
+                    <div class="card-header text-center">
+                        <img src="../images/cake.jpeg" class="img-fluid img-project">
+                    </div>
+                    <div class="card-body  text-center">
+                        <p class="lead text-bg">
+                            Developed a recipe search web application using the open-source REST Meals API. The project is built using HTML, CSS, and JavaScript and utilizes the fetch API in JavaScript. The application allows users to search for recipes items.
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/sandeep7093/recipeapp" class="link"><i class="fa fa-link"></i>Link</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-bg">
+                    <div class="card-header text-center">
+                        <img src="../images/ibomma.jpg" class="img-fluid img-skills">
+
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="lead text-bg">
+                            
+                            Developed a responsive Ibomma movie website clone using HTML, CSS, and JavaScript. The site showcases movie names displayed on different cards and works well on all screen sizes. This project enhanced my expertise in using flexbox and grid components for designing responsive layouts.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/sandeep7093/ibommaweb" class="link"><i class="fa fa-link"></i>Link</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card card-bg">
+                    <div class="card-header text-center">
+                        <img src="../images/weather.png" class="img-fluid img-skills">
+
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="lead text-bg">
+                            
+                            Developed a responsive weather app using HTML, CSS, and JavaScript, integrated with a free weather API. The app displays accurate weather information and adapts seamlessly to various screen sizes, ensuring a user-friendly experience</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/sandeep7093/weatherapp" class="link"><i class="fa fa-link"></i>Link</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card card-bg">
+                    <div class="card-header text-center">
+                        <img src="../images/imagesearch.webp" class="img-fluid img-skills">
+
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="lead text-bg">
+                            
+                           Developed a responsive image search application using HTML, CSS, and JavaScript, integrated with the Unsplash API. The app allows users to search for images and displays the results in a visually appealing manner. It is fully responsive, providing a seamless experience across different devices..</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="https://github.com/sandeep7093/imagesearch" class="link"><i class="fa fa-link"></i>Link</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+ </section>
+
+ <!---Footer-->
+ <section class="footer">
+    <div class="text-center footer-info">
+        <p class="text-bg h5">Developed By Sandeep. </p>
+        <p class="text-bg h6">All Rights Reserved@2024</p>
+    </div>
+    
+    
+   
+    
+
+ </section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>

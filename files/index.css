@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: #363535;
+}
+/*Navbar section*/
+.nav-link{
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+    color: white;
+
+}
+.navbar-brand{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+
+
+/* Home section*/
+.home{
+    margin-top: 200px;
+}
+.mypic{
+    border-radius: 50%;
+    
+}
+.display-2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 350;
+    color:black;
+}
+.home-icon{
+    width:50px;
+    margin: 0px 14px 0px 10px;
+    border-radius: 10px;
+    border: 0.4px solid black;
+    background: #000;
+    
+    
+  
+}
+.home-icon:hover{
+    animation: bounce 2s;
+    
+}
+
+
+/*About Section */
+.about{
+    margin-top: 200px;
+}
+.img-about{
+    border-radius: 20px;
+    width: 300px;
+    animation: wobble;
+    animation-duration: 2s;
+}
+.about-border{
+    border: 0.9px solid black;
+    border-radius: 20px;
+    background: #000;
+}
+
+/* skills section*/
+.img-skills{
+    width:100px;
+    border-radius: 20px;
+    margin:20px;
+    animation:bounce;
+    animation-duration: 3s;
+}
+.img-skills:hover{
+    animation:jello;
+    animation-duration: 2s;
+}
+.skills{
+    margin-top: 200px;
+}
+.bg-darka{
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+/* Projects */
+.projects{
+    margin-top: 200px;
+    background: #000;
+}
+.img-project{
+    width:200px;
+    height: 200px;
+    background: #000;
+    border-radius: 10px;
+  
+    
+}
+.text-bg{
+    color: white;
+}
+.card{
+    color: white;
+    height: 520px;
+    margin-top: 30px;
+    animation:tada 2s;
+}
+.card:hover{
+    animation: bounce 2s;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 5px;
+    color: white;
+}
+.card-bg{
+    background:rgb(43, 42, 42);
+}
+/*footer*/
+.footer{
+    margin-top: 100px;
+    
+    height: 100px;;
+    background:black;
+}
+.footer-info{
+  padding-top: 40px;
+
+}

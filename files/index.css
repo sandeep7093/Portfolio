@@ -104,7 +104,7 @@ body{
 }
 .card{
     color: white;
-    height: 520px;
+    height: 550px;
     margin-top: 30px;
     animation:tada 2s;
 }
